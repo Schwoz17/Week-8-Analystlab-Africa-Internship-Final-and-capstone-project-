@@ -187,6 +187,12 @@ API documentation (interactive Swagger UI): http://127.0.0.1:8000/docs
 
 ---
 
+### Deployment Note
+
+The Streamlit application performs predictions directly using the trained Random Forest model.
+
+A FastAPI backend is included in the repository to demonstrate API development. For the deployed version, the Streamlit app does not call the hosted API because free-tier hosting services may introduce cold-start delays, resulting in a slower user experience.
+
 ## Future Improvements
 
 - Include additional socioeconomic indicators
