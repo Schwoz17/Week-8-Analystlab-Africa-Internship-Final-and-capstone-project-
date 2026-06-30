@@ -31,40 +31,44 @@ The objective of this project is to predict a country's life expectancy using na
 
 ---
 
-## Project Structure
+## 📂 Project Structure
+
+```
 Life_Expectancy_Prediction_WDI/
 │
 ├── app/
-│   ├── init.py
+│   ├── __init__.py
 │   └── app.py                  # Streamlit application
 │
 ├── api/
-│   ├── init.py
+│   ├── __init__.py
 │   └── main.py                 # FastAPI application
 │
 ├── assets/                     # Screenshots and images
 │
 ├── data/
-│   ├── raw/                    # Original WDI exports (not tracked — see .gitignore)
-│   └── processed/               # Cleaned dataset used for training
+│   ├── raw/
+│   └── processed/
 │
 ├── models/
 │   ├── random_forest_model.pkl
 │   └── feature_names.pkl
 │
 ├── notebooks/
-│   └── Week 8.ipynb
+│   └── Life_Expectancy_Prediction.ipynb
 │
 ├── reports/
 │
 ├── src/
-│   ├── init.py
+│   ├── __init__.py
 │   └── predict.py
 │
 ├── requirements.txt
 ├── README.md
 ├── LICENSE
 └── .gitignore
+```
+
 ---
 
 ## Dataset
