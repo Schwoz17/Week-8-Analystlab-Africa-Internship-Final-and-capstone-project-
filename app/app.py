@@ -9,6 +9,9 @@ be edited independently without hunting through a wall of code. It imports
 predict_life_expectancy directly from src/predict.py. The model is not
 retrained or reloaded here; this file only collects input and renders output.
 """
+import subprocess, sys
+print(subprocess.run([sys.executable, "-m", "pip", "list"], capture_output=True, text=True).stdout)
+print("PYTHON:", sys.executable)
 
 import sys
 from pathlib import Path
