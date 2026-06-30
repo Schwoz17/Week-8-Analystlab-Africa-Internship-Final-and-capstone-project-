@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# Environment variables
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Build files
+build/
+dist/
+*.egg-info/
+
+# Python cache
+.pytest_cache/
+.mypy_cache/
+
+# Temporary files
+*.tmp
+*.bak
+
+# Raw data - large World Bank exports, re-downloadable from source
+data/raw/*.csv
+
+# Processed data - ignored by default, except the cleaned dataset we
+# want version-controlled so the project is reproducible without
+# re-running the cleaning notebook
+data/processed/*
+!data/processed/cleaned_life_expectancy.csv
