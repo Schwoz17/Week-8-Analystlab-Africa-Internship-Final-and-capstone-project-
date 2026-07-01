@@ -31,7 +31,7 @@ The objective of this project is to predict a country's life expectancy using na
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 Life_Expectancy_Prediction_WDI/
@@ -150,7 +150,7 @@ Both read from the same `models/` artifacts but operate independently of each ot
 Clone the repository
 
 ```bash
-git clone https://github.com/[your-github-username]/Life_Expectancy_Prediction_WDI.git
+git clone https://github.com/Schwoz17/Life_Expectancy_Prediction_WDI.git
 ```
 
 Navigate into the project
@@ -213,3 +213,5 @@ A FastAPI backend is included in the repository to demonstrate API development. 
 GitHub: `https://www.github.com/Schwoz17`
 
 LinkedIn: `https://www.linkedin.com/in/adeyemimuiz`
+
+Streamlit app: `https://wdi-life-expectancy-prediction.streamlit.app/`
